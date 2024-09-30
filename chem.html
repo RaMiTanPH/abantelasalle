@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/star.png">
+    <title>Chemistry Section</title>
+</head>
+
+<body>
+    <section class="banner" id="banner">
+        <div class="nav-logo">
+            <span class="logo-text">ANIMO!</span>
+        </div>
+    
+        <a href="https://docs.google.com/document/d/1G6ykD7CL0_VZLVxfNIYqpBM36LJ9t1DR3myeIX82V9Y/edit?fbclid=IwY2xjawFno_lleHRuA2FlbQIxMAABHRxykKq_bowIkRZGax1QgyeMbVslK37CglzMLVtaEpc4i1FM3771I86n2A_aem_8fkpjGstaEzwxj905tg6OA" target="_blank">
+            <img src="images/chem.jpg" alt="Your Image Description" class="chem-image">
+        </a>
+        <p class="click-to-redirect chem">Click the image above to view the document.</p>
+    
+        <nav class="navbar genmath-navbar" aria-label="Main Navigation">
+            <ul>
+                <li><a href="genmath.html" class="link active" data-target="math">General Math</a></li>
+                <li><a href="chem.html" class="link" data-target="chemistry">Chemistry</a></li>
+                <li><a href="earthsci.html" class="link" data-target="earth-science">Earth Science</a></li>
+                <li><a href="kom.html" class="link" data-target="komunikasyon">Komunikasyon</a></li>
+                <li><a href="philo.html" class="link" data-target="philosophy">Philosophy</a></li>
+            </ul>
+        </nav>
+        
+        <div class="content genmath">
+            <h1><b>CHEMISTRY</b></h1>
+            <a href="index.html" class="go-back genmath">
+                <img src="images/back.png" alt="Back" class="back-image">
+            </a>
+        <img src="images/star.png" alt="Star" class="star-decoration-es">
+    </section>
+
+    <section class="newchem-section">
+        <div class="chemistry-image-wrapper">
+            <a href="https://docs.google.com/document/d/1__bvqeVKbQ7qkEl_U-VG0RGsx6ya0oRyan9Xg5_H2A8/edit?fbclid=IwY2xjawFnOetleHRuA2FlbQIxMAABHTwhNBhvpn1cqkYr8E7ugD36DK3dy9PC1qiDxGC7sERlARx_AKILz_pjxw_aem_5TPhHLStr307GO-LaMQQgA" target="_blank">
+                <img src="images/chem2.jpg" alt="Chemistry Analysis" class="chemistry-image">
+            </a>
+        </div>
+    
+        <div class="chemistry-analysis">
+            <p>
+                The image above illustrates a chemical composition solution document, highlighting the balance of reactants and products.
+        </div>
+    </section>
+    
+
+    <section id="about-us" class="about-us-section genmath">
+        <h1>About Us</h1>
+        <p>We are aware of how critical sustainability is to preserving the condition of our environment. Our goal is to increase awareness, action, and education in order to advance ecological peace and sustainability.</p>
+        <h2>Contacts</h2>
+        <div class="contacts">
+            <div class="contact-card">
+                <span>Rrylan Jane Balanay:</span>
+                <a href="mailto:rj.balanay@lsa.edu.ph">rj.balanay@lsa.edu.ph</a>
+            </div>
+            <div class="contact-card">
+                <span>Chara Maglipac:</span>
+                <a href="mailto:cg.maglipac@lsa.edu.ph">cg.maglipac@lsa.edu.ph</a>
+            </div>
+            <div class="contact-card">
+                <span>Gwyneth Anticamara:</span>
+                <a href="mailto:g.anticamara@lsa.edu.ph">g.anticamara@lsa.edu.ph</a>
+            </div>
+            <div class="contact-card">
+                <span>Ralph Michael Tan:</span>
+                <a href="mailto:r.tan@lsa.edu.ph">r.tan@lsa.edu.ph</a>
+            </div>
+            <div class="contact-card">
+                <span>Markel Campos:</span>
+                <a href="mailto:m.campos@lsa.edu.ph">m.campos@lsa.edu.ph</a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        document.getElementById('photos').addEventListener('click', function (event) {
+            if (event.target.classList.contains('photo')) {
+                document.querySelector('.sdg-scroll-section').scrollIntoView({ behavior: 'smooth' });
+            }
+        });
+    </script>
+</body>
+
+</html>
